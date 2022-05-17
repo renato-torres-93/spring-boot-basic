@@ -4,7 +4,7 @@ public class Time {
   private final long id;
   private final String content;
 
-  public Time(long id, String content)
+  public Time(long id)
   {
     this.id = id;
     this.content = new java.util.Date().toString();
